@@ -6,6 +6,11 @@ tailwind.config = {
         lightpurple: "#F0EDFE",
         ashtext: "#737373",
         black: "#151515",
+        starcolor: "#ffac4a",
+        lightorange: "#feefec",
+        lightpaste: "#ecfbfb",
+        lightgreen: "#e7f7eb",
+        lightyellow: "#fff8ec",
       },
       fontFamily: {
         int: "Inter",
@@ -16,6 +21,10 @@ tailwind.config = {
       fontSize: {
         btntxt: "20px",
         h1: "75px",
+        h2: "50px",
+        h3: "35px",
+        h4: "25px",
+        h5: "25px",
         paratxt: "16px",
       },
       borderRadius: {
