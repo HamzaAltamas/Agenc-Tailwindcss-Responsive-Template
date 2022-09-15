@@ -21,8 +21,8 @@ tailwind.config = {
       },
       fontSize: {
         btntxt: "20px",
-        h1: "75px",
-        h2: "45px",
+        h1: "70px",
+        h2: "40px",
         h3: "35px",
         h4: "25px",
         h5: "25px",
