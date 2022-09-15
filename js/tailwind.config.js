@@ -11,6 +11,7 @@ tailwind.config = {
         lightpaste: "#ecfbfb",
         lightgreen: "#e7f7eb",
         lightyellow: "#fff8ec",
+        primarybg: "#f3f3f3",
       },
       fontFamily: {
         int: "Inter",
@@ -21,7 +22,7 @@ tailwind.config = {
       fontSize: {
         btntxt: "20px",
         h1: "75px",
-        h2: "50px",
+        h2: "45px",
         h3: "35px",
         h4: "25px",
         h5: "25px",
