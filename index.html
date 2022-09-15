@@ -714,7 +714,7 @@
         </div>
       </div>
       <div
-        class="container mx-auto flex justify-between px-[10px] md:px-[0] mt-[30px] md:mt-[58px]"
+        class="container mx-auto relative flex justify-between px-[10px] md:px-[0] mt-[30px] md:mt-[58px] lg:pt-[200px]"
       >
         <div
           class="w-full md:w-[32%] rounded-[20px] px-[30px] py-[50px] hidden md:block"
@@ -760,7 +760,7 @@
         </div>
 
         <div
-          class="w-full md:w-[32%] rounded-[20px] shadow drop-shadow-2*l px-[30px] py-[50px]"
+          class="w-full md:w-[32%] lg:absolute lg:top-[0] lg:left-[50%] lg:translate-x-[-50%] rounded-[20px] shadow drop-shadow-2*l px-[30px] py-[50px]"
         >
           <picture>
             <img src="quote.png" class="w-[58px] h-auto pb-[15px]" alt="" />
@@ -846,9 +846,9 @@
         </div>
       </div>
       <div
-        class="pt-[40px] container mx-auto flex px-[10px] md:px-[0] justify-center"
+        class="pt-[40px] lg:pt-[0] container mx-auto flex px-[10px] md:px-[0] justify-center"
       >
-        <ul class="flex gap-x-[10px]">
+        <ul class="flex gap-x-[10px] lg:mt-[-160px]">
           <li class="w-[10px] h-[10px] rounded-full bg-lightpurple"></li>
           <li class="w-[10px] h-[10px] rounded-full bg-lightpurple"></li>
           <li class="w-[10px] h-[10px] rounded-full bg-purple"></li>
@@ -858,5 +858,86 @@
       </div>
     </section>
     <!-- clients review end -->
+    <!-- form part start -->
+    <section
+      class="pb-[50px] md:pb-[80px] lg:pb-[100px] pt-[50px] md:pt-[80px] lg:pt-[100px] bg-primarybg"
+    >
+      <div class="container mx-auto md:flex px-[10px] md:px-[0]">
+        <div class="w-full md:w-[50%] flex items-center">
+          <div class="">
+            <h2
+              class="leading-[120%] md:w-[95%] lg:w-[478px] w-full text-[25px] md:text-[35px] lg:text-h2 pb-[10px] font-bold text-black"
+            >
+              We Do design, Code & Development
+            </h2>
+            <p
+              class="w-full text-ashtext text-[12px] lg:text-paratxt w-full md:w-[75%] lg:w-[80%]"
+            >
+              I had a good experience while using this app, what fascinated me
+              was the live tracking feature There are many variations of
+              passages of Lorem Ipsum available, but the majority. There are
+              many variations of passages of Lorem Ipsum available, but
+              themajority have suffered alteration in some form.
+            </p>
+          </div>
+        </div>
+        <div class="w-full md:w-[50%] flex justify-center">
+          <div
+            class="bg-white w-full md:w-full lg:w-[70%] rounded-[20px] py-[25px] md:py-[30px] px-[20px] mt-[25px] md:mt-[0]"
+          >
+            <h4
+              class="md:text-[20px] lg:text-h4 text-[16px] font-bold text-black md:pb-[20px] pb-[10px] text-center"
+            >
+              Get a free quote now
+            </h4>
+            <form action="" method="" class="flex flex-col">
+              <label
+                for="fname"
+                class="text-black md:text-paratxt text-[12px] pb-[5px]"
+                >Name</label
+              >
+              <input
+                type="text"
+                id="fname"
+                name="fname"
+                class="rounded-[10px] py-[10px] px-[15px] md:py-[15px] md:px-[20px] mb-[20px] shadow drop-shadow-2xl focus:outline-0 placeholder:text-[12px] md:placeholder:text-[16px] lg:placeholder:text-[20px]"
+                placeholder="Enter your name"
+              />
+              <label
+                for="email"
+                class="text-black md:text-paratxt text-[12px] pb-[5px]"
+                >Email</label
+              >
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="rounded-[10px] py-[10px] px-[15px] md:py-[15px] md:px-[20px] mb-[20px] shadow drop-shadow-2xl focus:outline-0 placeholder:text-[12px] md:placeholder:text-[16px] lg:placeholder:text-[20px]"
+                placeholder="Enter your email"
+              />
+              <label
+                for="phone"
+                class="text-black md:text-paratxt text-[12px] pb-[5px]"
+                >Phone</label
+              >
+              <input
+                type="number"
+                id="phone"
+                name="phone"
+                class="rounded-[10px] py-[10px] px-[15px] md:py-[15px] md:px-[20px] mb-[30px] shadow drop-shadow-2xl focus:outline-0 placeholder:text-[12px] md:placeholder:text-[16px] lg:placeholder:text-[20px]"
+                placeholder="Enter your phone number"
+              />
+              <button
+                type="submit"
+                class="px-[25px] py-[10px] text-[16px] md:text-[20px] lg:py-[15px] lg:px-[42px] overflow-hidden bg-purple text-white rounded-btnradious text-btntxt font-semibold relative after:absolute after:content-[''] after:w-[300px] after:h-[300px] after:rounded-full after:bg-lightpurple after:left-[50%] after:bottom-[-300px] after:translate-x-[-50%] after:duration-[500ms] hover:after:bottom-[-150px] duration-[500ms] hover:text-purple hover:bg-lightpurple"
+              >
+                <span class="relative z-[2]">Get Pricing Now</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- form part end -->
   </body>
 </html>
